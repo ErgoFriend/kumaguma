@@ -3,7 +3,15 @@ import logo from './logo.svg';
 
 import Styled from 'styled-components';
 
+import { Engine } from 'excalibur'
+
 const App: React.FC = () => {
+  const game = new Engine({
+    width: 800,
+    height: 600,
+    canvasElementId: 'game',
+  })
+
   return (
     <AppStyle>
       <HeaderStyle>
@@ -19,6 +27,8 @@ const App: React.FC = () => {
         >
           Learn React
         </LinkStyle>
+        <canvas id="game"></canvas>
+        {(() => game.start())}
       </HeaderStyle>
     </AppStyle>
   );
