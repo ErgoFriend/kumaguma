@@ -6,20 +6,20 @@ import Styled from 'styled-components';
 const App: React.FC = () => {
   return (
     <AppStyle>
-      <header className="App-header">
+      <HeaderStyle>
         <LogoStyle src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
-        <a
+        <LinkStyle
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
-      </header>
+        </LinkStyle>
+      </HeaderStyle>
     </AppStyle>
   );
 }
