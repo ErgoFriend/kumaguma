@@ -1,0 +1,28 @@
+{
+  "name": "kumaguma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx parcel src/index.html --open",
+    "build": "npx parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErgoFriend/kumaguma.git"
+  },
+  "keywords": [],
+  "author": "ErgoFriend <erg.friend@gmail.com> (https://github.com/ErgoFriend)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErgoFriend/kumaguma/issues"
+  },
+  "homepage": "https://github.com/ErgoFriend/kumaguma#readme",
+  "devDependencies": {
+    "excalibur": "^0.23.0",
+    "parcel": "^1.12.4",
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {}
+}
